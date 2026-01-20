@@ -3,6 +3,7 @@ from groq import Groq
 
 st.set_page_config("AfifaAI Content Generator", layout="wide")
 st.title("📢 AfifaAI – Content Generator")
+st.image("US.png")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
